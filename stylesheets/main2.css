@@ -194,6 +194,9 @@ nav {
   Form
   ========================================
 */
+.form-header {
+  margin: 20px;
+}
 
 .form-header h2{
   text-align: center;
@@ -261,24 +264,26 @@ input[type=submit]:hover {
   margin-top: 1%;
   margin-bottom: 0;
   overflow: hidden;
+  border-bottom: 1px solid black;
 }
 
 .logo {
   flex-grow: 1;
   margin-bottom: 0;
+  margin-left: 5%;
   order: 1;
   padding-bottom: 0;
 }
 
 .logo a {
   color: #3da7b4;
-  margin-left: 15%;
   margin-bottom: 0;
 }
 
 .tagline {
   /* border: black 1px solid; */
   flex-grow: 1;
+  margin-left: 17%;
   margin-top: 1%;
   order: 2;
 }
@@ -307,6 +312,8 @@ input[type=submit]:hover {
   /* border: # solid 3px; */
   height: 500px;
   width: 100%;
+  margin-left: 21%;
+  margin-top: 20px;
 }
 
 /* TOP GIGSTERS SECTION */
@@ -339,8 +346,9 @@ input[type=submit]:hover {
 /*** CARD HEADER ***/
 .gigsters-card-header {
   width: 273px;
-  height: 200px;
+  height: 30px;
   order: 1;
+  border: 1px orange solid;
   position: relative;
 }
 
@@ -348,26 +356,52 @@ input[type=submit]:hover {
   font-size: 18px;
   margin-left: 3%;
   margin-top: 3%;
-  order: 1;
-}
-
-.price-container {
-  border: black solid 1px;
-  position: absolute;
-  right: 0;
-  height: 30px;
-  order: 2;
-  width: 50px;
+  display: inline;
+  border: 1px red solid;
 }
 
 .gigsters-price-tag {
-  margin-top: 10%;
+  display: inline;
+  border: 1px green solid;
+  position: absolute;
+}
+
+.gigster-pic {
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  order: 2;
 }
 
 /*** CARD MAIN INFO ***/
 .gigsters-main-info {
+  background-color: #ffdd99;
   border: black solid 1px;
   height: 200px;
   width: 273px;
-  order: 2;
+  order: 3;
+}
+
+.job-title h1 {
+  text-align: center;
+}
+
+.job-description h2 {
+  margin-left: 3%;
+}
+
+.job-description p {
+  margin-left: 12%;
+  margin-top: 2%;
+}
+
+footer {
+  border-top: 1px black solid;
+}
+
+footer a {
+  padding: 20px 0;
+  margin-left: 47%;
+  font-size: 18px;
 }
